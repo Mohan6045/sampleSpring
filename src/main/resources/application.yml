@@ -1,0 +1,51 @@
+#server:
+#  port: 8082
+#
+#spring:
+#  profiles:
+#    active: QA
+#---
+#spring:
+#  profiles: dev
+#  h2:
+#    console:
+#      enabled: 'true'
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:mem:testdatabase_Dev
+#    driverClassName: org.h2.Driver
+#    password: password
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#
+#Welcome: Happy to code using Java
+#---
+#spring:
+#  profiles: QA
+#  h2:
+#    console:
+#      enabled: 'true'
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:mem:testdatabase_QA
+#    driverClassName: org.h2.Driver
+#    password: password
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#
+#Welcome: Happy to code using Java
+#---
+#spring:
+#  profiles: Prod
+#  h2:
+#    console:
+#      enabled: 'true'
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:mem:testdatabase_Prod
+#    driverClassName: org.h2.Driver
+#    password: password
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#
+#Welcome: Happy to code using Java

@@ -1,0 +1,4 @@
+com\tomboy\SpringBoot\LearnTour\Respository\DepartmentRepositoryTest.class
+com\tomboy\SpringBoot\LearnTour\Controller\DepartmentControllerTest.class
+com\tomboy\SpringBoot\LearnTour\Service\DepartmentServiceTest.class
+com\tomboy\SpringBoot\LearnTour\SpringBootLearnApplicationTests.class
